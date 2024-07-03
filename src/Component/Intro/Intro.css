@@ -14,6 +14,9 @@
 .i-right {
     flex: 1;
     position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .i-left-wrapper {
@@ -69,13 +72,10 @@
     height: auto;
     border-radius: 50%;
     position: absolute;
-    top: 50%;
-    right: 50%;
-    transform: translate(50%, -50%);
-    object-fit: cover;
-    background-color: white; /* Added to show the borders of the image */
-    padding: 5px; /* White border around the image */
-    box-shadow: 0 0 20px rgba(0, 0, 0, 0.2); /* Optional shadow */
+    background-color: white;
+    padding: 5px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+    z-index: 1;
 }
 
 /* Green Background */
@@ -87,7 +87,7 @@
     position: absolute;
     top: 0;
     right: 0;
-    z-index: -1; /* Send the background behind the image */
+    z-index: -1; /* Ensure it's behind the image */
 }
 
 /* Tablet View (less than 768px) */
@@ -137,15 +137,15 @@
     }
 
     .i-intro {
-        font-size: 24px; /* Adjusted font size */
+        font-size: 24px;
     }
 
     .i-name {
-        font-size: 36px; /* Adjusted font size */
+        font-size: 36px;
     }
 
     .i-title-item {
-        font-size: 24px; /* Adjusted font size */
+        font-size: 24px;
     }
 
     .i-ima {
