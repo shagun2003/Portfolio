@@ -66,15 +66,15 @@
 
 .i-ima {
     width: 100%;
-    max-width: 500px; /* Maintain aspect ratio */
+    max-width: 400px;
     height: auto;
-    object-fit: cover;
     border-radius: 50%;
     position: absolute;
     background-color: black;
     right: 50%;
     transform: translateX(50%);
-    margin-top: 150px;
+    top: 50%;
+    transform: translate(-50%, -50%);
 }
 
 /* Tablet View (less than 768px) */
@@ -91,9 +91,10 @@
 
     .i-ima {
         width: 80%;
-        max-width: 400px;
-        margin-top: 50px;
-        position: static;
+        max-width: 300px;
+        top: auto;
+        bottom: 20px;
+        transform: translate(-50%, 0);
     }
 
     .i-left-wrapper {
@@ -135,9 +136,11 @@
     }
 
     .i-ima {
-        width: 200px;
-        height: 200px;
-        margin-top: 30px;
+        width: 80%;
+        max-width: 200px;
+        height: auto;
+        top: auto;
+        margin-top: 20px;
         position: static;
     }
 
