@@ -67,7 +67,7 @@ export const Contact = () => {
                 </div>
                 <div className="c-right">
                     <p className="c-desc">
-                        <b>Let’s Work Together!</b> Have a project in mind or just want to say hi? Fill out the form below to reach out. I look forward to collaborating and bringing your ideas to life.
+                        <b>What’s your story?</b> Get in touch.
                     </p>
                     <form ref={formRef} onSubmit={handleSubmit}>
                         <input
