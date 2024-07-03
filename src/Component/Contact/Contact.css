@@ -1,0 +1,78 @@
+.c {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+}
+
+.c-wrapper {
+  display: flex;
+  width: 100%;
+  max-width: 1200px;
+  /* Added gap to create space between .c-left and .c-right */
+  padding: 20px; /* Padding around the wrapper */
+}
+
+.c-left, .c-right {
+  flex: 1;
+  padding: 20px; /* Added padding inside each section */
+  box-sizing: border-box; /* Ensure padding is included in the element's total width and height */
+}
+
+.c-title {
+  font-size: 30px;
+  margin-bottom: 20px;
+}
+
+.c-info {
+  display: flex;
+  flex-direction: column;
+}
+
+.c-info-item {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.c-icon {
+  width: 24px;
+  height: 24px;
+  margin-right: 10px;
+}
+
+.c-desc {
+  margin-bottom: 20px;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+input, textarea {
+  margin-bottom: 10px;
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+button {
+  padding: 10px 20px;
+  background-color:brown;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+  border-radius: 4px;
+}
+
+button:hover {
+  background-color: #555;
+}
+
+.thank-you {
+  margin-top: 20px; /* Adds space above the thank you message */
+  text-align: center;
+  font-size: 18px;
+  color: green; /* Customize the color as needed */
+}
