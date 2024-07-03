@@ -58,7 +58,7 @@ export const Contact = () => {
                             <img src={phone} alt="Phone" className='c-icon' />+918736001357
                         </div>
                         <div className="c-info-item">
-                            <img src={email} alt="Email" className='c-icon' />contact@mansi.dev
+                            <img src={email} alt="Email" className='c-icon' />contact@singhshagun05072003@gmail.com
                         </div>
                         <div className="c-info-item">
                             <img src={address} alt="Address" className='c-icon' />civil line, U.P.
@@ -67,8 +67,7 @@ export const Contact = () => {
                 </div>
                 <div className="c-right">
                     <p className="c-desc">
-                        <b>What’s your story?</b> Get in touch. Always available for
-                        freelancing if the right project comes along.
+                        <b>What’s your story?</b> Get in touch.
                     </p>
                     <form ref={formRef} onSubmit={handleSubmit}>
                         <input
