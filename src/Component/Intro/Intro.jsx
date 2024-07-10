@@ -1,9 +1,7 @@
-import React from "react";
 
 import "./Intro.css"
 import twotree from "../../ima/twotree.png" 
-
-export const Hero = () => {
+export const Intro = () => {
   return (
     <section className={styles.container}>
       <div className={styles.content}>
@@ -24,5 +22,5 @@ export const Hero = () => {
       <div className={styles.topBlur} />
       <div className={styles.bottomBlur} />
     </section>
-  );
-};
+  )
+}
